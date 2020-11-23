@@ -1,0 +1,100 @@
+body {
+        background-color: black;
+        background-image: url('../img/bakrundsbild.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+
+#container {
+    width: 960px;
+    margin: 20px auto;
+}
+
+#header {
+    text-align: center;
+    background-color: transparent;
+    height: 50px;
+}
+
+#header a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  #header a:hover {
+    color: gray;
+  }
+
+  #header a.active {
+    color: white;
+  }
+
+  #spotify {
+    float: right;
+    margin-top: 10px;
+}
+
+#news-section {
+      background-color: transparent;
+      height: 80;
+}    
+  
+#logo {
+    background-color: transparent;
+    text-align: center;
+
+}
+
+#footer {
+    text-align: center;
+    height: 100;
+}
+
+#footer a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+   .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 20px;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    margin: 20px;
+  }
+
+  .fa-spotify {
+    background: #1ED760;
+    color: white;
+    margin: 20px;
+  }
+
+  .mySlides {display:none;}
+
+    
