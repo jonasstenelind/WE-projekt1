@@ -34,21 +34,6 @@ color: gray;
 color: white;
 }
 
-#spotify {
-float: right;
-margin-top: 10px;
-}
-
-#news-section {
-  background-color: transparent;
-  height: 80;
-}    
-
-#logo {
-background-color: transparent;
-text-align: center;
-
-}
 
 #footer {
 text-align: center;
