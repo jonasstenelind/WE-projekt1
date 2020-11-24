@@ -1,6 +1,6 @@
 body {
         background-color: black;
-        background-image: url('../img/bakrundsbild.jpg');
+        background-image: url('../img/bakgrundsbild.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -95,6 +95,5 @@ body {
     margin: 20px;
   }
 
-  .mySlides {display:none;}
 
     
