@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    background-image: url('../img/bakgrundsbild.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #container {  
+    width: 960px;
+    margin: 20px auto;
+  }
+  
+  #header {
+  text-align: center;
+  height: 50px;
+  }
+  
+  #header a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  }
+  
+#header a:hover {
+  color: gray;
+  }
+  
+#header a.active {
+  color: white;
+  }
+ 
+section {
+  text-align:center;
+  width:100%;
+}
+
+h3{
+  color: lightgray;
+}
+
+#footer {
+    text-align: center;
+    height: 100;
+    margin-top: 25px;
+}
+    
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  }
+  
+  .fa:hover {
+  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin: 20px;
+  }
+  
+  .fa-youtube {
+  background: #bb0000;
+  color: white;
+  margin: 20px;
+  }
+  
+  .fa-spotify {
+  background: #1ED760;
+  color: white;
+  margin: 20px;
+  }
+
+  .fa-google {
+    background: black;
+    color: white;
+    margin: 20px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      [class*="col-"] {width: 100%;}
+      } 
+    
+      @media only screen and (max-width: 600px) {
+        .fa {padding: 10px;}
+      }
+    
+      @media only screen and (max-width: 600px) {
+        .fa-google .fa-spotify .fa-youtube .fa-facebook {margin: 10px;}
+      }
+    
+      @media only screen and (max-width: 600px) {
+        #header a {
+          float: left;
+          font-size: 20px;}
+      }
+    
+      @media only screen and (max-width: 600px) {
+        #header {
+          float: left;
+          text-align: left;
+        }
+      }
+    
+      @media only screen and (max-width: 600px) {
+        #container {width: 100%}
+      }
+    
+      @media only screen and (max-width: 600px) {
+        section {width: 80%}
+      }
+    
+    
+      @media only screen and (max-width: 600px) {
+        iframe {width: 100%;
+                margin-left: 50px;
+        } 
+      }
