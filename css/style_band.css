@@ -99,41 +99,57 @@ margin: 20px;
   margin: 20px;
   }
 
-  @media only screen and (max-width: 600px) {
-    [class*="col-"] {width: 100%;}
-    } 
-
-    @media only screen and (max-width: 600px) {
-      .fa {padding: 10px;}
+  @media only screen and (max-width: 370px) {
+    body {
+      width: 370px;
+    }
     }
 
-    @media only screen and (max-width: 600px) {
-      .fa-google .fa-spotify .fa-youtube .fa-facebook {margin: 10px;}
+  @media only screen and (max-width: 370px) {
+    #header a {
+      font-size: 20px;
+      padding: 2px 4px;
+    }
     }
 
-    @media only screen and (max-width: 600px) {
-      #header a {
-        float: left;
-        font-size: 20px;}
+  @media only screen and (max-width: 370px) {
+    #container {
+      width: 370px;}
     }
 
-    @media only screen and (max-width: 600px) {
-      #header {
-        float: left;
-        text-align: left;
+    @media only screen and (max-width: 370px) {
+      #band {
+        width: 300px;
+        margin: none;
       }
-    }
+      }
 
-    @media only screen and (max-width: 600px) {
-      #container {max-width: 100%;}
-    }
+      @media only screen and (max-width: 370px) {
+        img {
+          display: none;
+        }
+        }
 
-    @media only screen and (max-width: 600px) {
-      #text {max-width: 100%;}
-    }
+      @media only screen and (max-width: 370px) {
+        #text {
+          width: 200px;}
+        }
 
-    @media only screen and (max-width: 600px) {
-      #band {max-width: 100%;}
-    }
+    @media only screen and (max-width: 370px) {
+      #footer {
+        margin-top: 70px;
+      }
+      }
+
+      @media only screen and (max-width: 370px) {
+        .fa {
+          width: 25px;
+          padding: 10px;}
+      }
+    
+      @media only screen and (max-width: 370px) {
+        .fa-google .fa-spotify .fa-youtube .fa-facebook {
+          margin: 0px;}
+      }
 
 
