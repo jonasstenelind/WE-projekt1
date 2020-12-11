@@ -1,7 +1,7 @@
 body {
     background-color: black;
     background-image: url('../img/bakgrundsbild.jpg');
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,7 +37,8 @@ section {
     text-align:center;
     width:100%;
   }
-  iframe{
+  
+iframe {
     padding: 50px;
   }
 
